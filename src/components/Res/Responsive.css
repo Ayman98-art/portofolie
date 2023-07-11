@@ -1,4 +1,7 @@
 @media (max-width: 475px) {
+    .warpLogo {
+        width: 15%;
+    }
     .DescPro h1{
         font-size: calc(2.6 * var(--fs-20)); 
         text-align: center;
