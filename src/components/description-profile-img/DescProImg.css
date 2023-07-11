@@ -1,0 +1,22 @@
+.SiteImg img
+{
+    animation: 
+    alien 
+    1.7s 
+    infinite 
+    ease-in-out;
+}
+
+@keyframes alien{
+    0%{
+        transform: translateY(15px);
+    }
+
+    50%{
+        transform: translateY(32px);
+    }
+
+    100%{
+        transform: translateY(15px);
+    }
+}

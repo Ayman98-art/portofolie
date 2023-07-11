@@ -1,0 +1,59 @@
+@media (max-width: 475px) {
+    .DescPro h1{
+        font-size: calc(2.6 * var(--fs-20)); 
+        text-align: center;
+    }
+    .DescPro article p {
+        text-align: center;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact {
+        text-align: center;
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact button {
+        width: 50%;
+    }   
+}
+
+@media (min-width: 476px) and (max-width: 820px) {
+    .DescPro h1{
+        font-size: calc(2.3 * var(--fs-20)); 
+    }
+    .DescPro article p {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact button {
+        width: 50%;
+    }   
+}
+
+@media (min-width: 821px) and (max-width: 991px) {
+    .DescPro h1{
+        font-size: calc(2.3 * var(--fs-20)); 
+    }
+    .DescPro article p {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact {
+        padding-left: 0px;
+        width: 100%;
+    }
+    .btn-contact button {
+        width: 75%;
+    }   
+}
+
+@media (max-width: 1115px) {
+    .btn-contact button {
+        width: 50%;
+    }   
+}

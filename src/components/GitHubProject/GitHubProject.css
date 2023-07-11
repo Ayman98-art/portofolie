@@ -1,0 +1,49 @@
+.GitHubProject__content{
+    background-color: transparent;
+    border: 1px solid var(--colorBasic);
+    border-radius: 7px;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+}
+
+.GitHubProject__head{    
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.GitHubProject__head a h2{
+    font-size: var(--fs-20);
+}
+
+.GitHubProject__head a h2:hover{
+    color: var(--wordGreen);
+}
+
+.GitHubProject__title{
+    padding-top: 10px;
+    color: var(--colorBasic);
+    font-size: calc( .9 * var(--fs-16));
+}
+
+.PublicSuodo{
+    color: var(--colorBasic);
+    font-size: var(--fs-16);
+    line-height: 1.8;
+    position: relative;
+    padding: 0 7px;
+    z-index: 1;
+}
+
+.PublicSuodo::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: var(--bgColorBasic);
+    border-radius: 32px;
+    border: 1px solid var(--colorBasic);
+    z-index: -1;
+}
+
+

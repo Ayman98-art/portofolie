@@ -1,0 +1,41 @@
+.DescPro h1{
+    font-size: calc(2 * var(--fs-20));
+    color: var(--colorBasic);
+}
+
+.DescPro span{
+    font-size: var(--fs-20);
+    font-weight: var(--f-w-bold);
+    color: var(--wordGreen);
+}
+
+.DescPro article{
+    padding-top: 22px;
+}
+
+.DescPro article p{
+    color: var(--colorBasic);
+    font-size: var(--fs-18);
+    line-height: 1.8;
+}
+
+.btn-contact{
+    margin-top: 22px;
+    width: 100%;
+}
+
+.btn-contact button{
+    display: inline;
+    width: 30%;
+    padding: 15px;
+    border-radius: 0;
+    font-size: var(--fs-18);
+    background-color: var(--bgbtn);
+    border: 1px solid var(--colorBasic);
+}
+
+.btn-contact button:hover{
+    background-color: var(--bgbtn) !important;
+    border: 1px solid var(--colorBasic);
+    color: var(--wordGreen);
+}
