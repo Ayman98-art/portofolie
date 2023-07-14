@@ -7,7 +7,7 @@ return (
     <>
         <div className='ItemSkilles'>
             <h2>
-                Skilles
+                Skills
             </h2>
             <article>
                 <p>
