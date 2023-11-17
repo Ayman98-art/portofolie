@@ -80,6 +80,14 @@ return (
     />
 </Col>
 
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Qr-Generator.git"} 
+        projectGit={"Qr Generator"} 
+        titleGit={"React"}
+    />
+</Col>
+
 </Row>
     </>
 )
