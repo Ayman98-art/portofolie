@@ -1,0 +1,84 @@
+@import url("./components/Res/Responsive.css");
+
+*{
+  margin: 0 ;
+  padding:0;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 400;
+  font-family: Inter, system-ui, Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+:root{
+  --colorBasic: #371a46;
+  --bgColorBasic:  #cccccc1f;
+  --bgbtn:  #212529;
+  --wordGreen: #62ed2e;
+  --wordGreenFooter: #62ed2e;
+  --FooterGreen: #000000;
+  --bgToggleNav:rgb(255, 255, 255);
+  --navScroll :#f9f9f9;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-20: 20px;
+  --f-w-bold: 600;
+  --transition: all .3s ; 
+}
+
+.DarkMood{
+  --colorBasic: rgb(255, 255, 255);
+  --bgColorBasic: #000000;
+  --bgbtn:rgb(0, 0, 0);
+  --bgColorBasic2:  rgba(20, 58, 3, 0.603);
+  --bgToggleNav:rgb(255, 255, 255);
+  --FooterGreen: #62ed2e;
+  --wordGreenFooter: #371a46;
+  --navScroll: #000000;
+}
+
+ul , ul li , ul li a {
+  text-decoration: none;
+  list-style: none;
+}
+
+img{
+  width: 100%;
+  height: fit-content;
+}
+
+.basicWarpping{
+  background-color: var(--bgColorBasic);
+  height: 100%;
+  width: 100%;
+}
+
+.mx-15{
+  margin: 0px 15px;
+}
+
+.pt-100{
+  padding-top: 100px;
+}
+
+.pt-120{
+  padding-top: 120px;
+}
+
+.pt-300{
+  padding-top: 150px;
+}
+
+.pb-70{
+  padding-bottom: 70px;
+}
+
+::selection{
+  background-color: #62ed2e;
+  color: #fff;
+}

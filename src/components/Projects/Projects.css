@@ -1,0 +1,11 @@
+.descTitle h2{
+    font-size: calc(1.7 * var(--fs-20));
+    color: var(--colorBasic);
+}
+
+.descTitle article p {
+    color: var(--colorBasic);
+    font-size: var(--fs-18);
+    line-height: 1.8;
+    padding-top: 10px;
+}

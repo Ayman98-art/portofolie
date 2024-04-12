@@ -1,0 +1,15 @@
+.skillesItems{
+    width: 40%;
+    margin: 10px auto;
+}
+
+.skillesItems img{
+    border-radius: 9px;
+    transform: scale(.9);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.skillesItems img:hover{
+    transform: scale(1);
+}

@@ -1,0 +1,43 @@
+.ContactDesc h2{
+    font-size: calc(1.7 * var(--fs-20));
+    color: var(--colorBasic);
+}
+
+.ContactDesc article p {
+    color: var(--colorBasic);
+    font-size: var(--fs-18);
+    line-height: 1.8;
+    padding-top: 10px;
+}
+
+.mail_Link{
+    text-decoration: underline !important;
+    transition: var(--transition) !important;
+}
+
+.mail_Link:hover{
+    font-size: var(--fs-20) !important;
+    text-decoration: none !important;
+}
+
+.socialLink:hover{
+    font-size: var(--fs-18) !important;
+    text-decoration: none !important;
+}
+
+.img-socail{
+    width: 75%;
+    margin-top: 15px;
+}
+
+.footer{
+    background-color: var(--FooterGreen);
+    width: 100%;
+    height: 35px;
+}
+
+.footer h6{
+    color: var(--wordGreenFooter);
+    font-weight: var(--f-w-bold);
+    padding-top: 15px;
+}
