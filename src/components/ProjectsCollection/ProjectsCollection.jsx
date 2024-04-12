@@ -64,6 +64,30 @@ return (
     />
 </Col>
 
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Encrypto-Decrypto-App.git"} 
+        projectGit={"Encrypto Decrypto App"} 
+        titleGit={"REACT JS"}
+    />
+</Col>
+
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Convert-Numbers-To-Words.git"} 
+        projectGit={"Convert Numbers To Words"} 
+        titleGit={"JAVASCRIPT"}
+    />
+</Col>
+
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Qr-Generator.git"} 
+        projectGit={"Qr Generator"} 
+        titleGit={"REACT JS"}
+    />
+</Col>
+
 </Row>
     </>
 )
