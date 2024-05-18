@@ -88,6 +88,30 @@ return (
     />
 </Col>
 
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Notifications-page-.git"} 
+        projectGit={"Notifications page"} 
+        titleGit={"JAVASCRIPT"}
+    />
+</Col>
+
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/REST-Countries-API-with-color-theme-switcher-.git"} 
+        projectGit={"REST Countries API"} 
+        titleGit={"JAVASCRIPT"}
+    />
+</Col>
+
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Farzeen_Doors.git"} 
+        projectGit={"Farzeen Doors"} 
+        titleGit={"REACT JS"}
+    />
+</Col>
+
 </Row>
     </>
 )
