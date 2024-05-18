@@ -15,7 +15,7 @@ return (
 <>
     <Navbar expand ='lg' >
     <Container>
-    <Navbar.Brand href="logo" className='warpLogo' >
+    <Navbar.Brand href="#" className='warpLogo' >
         <img className='logo'
         src= {logo} 
         alt='logo-portofolie'
