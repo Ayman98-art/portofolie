@@ -106,7 +106,7 @@ return (
 
 <Col lg="4" className='mtop-15'>
     <GitHubProject 
-        linkGit={"https://github.com/Ayman98-art/Farzeen_Doors.git"} 
+        linkGit={"https://github.com/Ayman98-art/Farzeen-Door.git"} 
         projectGit={"Farzeen Doors"} 
         titleGit={"REACT JS"}
     />
