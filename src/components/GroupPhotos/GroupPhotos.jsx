@@ -4,6 +4,7 @@ import HTML from '../../assets/icons-of-skilles/HTML5_logo_and_wordmark.svg'
 import Css from '../../assets/icons-of-skilles/css.svg';
 import JS from '../../assets/icons-of-skilles/javascript.svg';
 import Boostrap from '../../assets/icons-of-skilles/bootstrap.svg';
+import Material from '../../assets/icons-of-skilles/Material-Ui.svg';
 import Framwork from '../../assets/icons-of-skilles/react.svg';
 import GitHub from '../../assets/icons-of-skilles/GitHub-Logo.png';
 import Git from '../../assets/icons-of-skilles/git.svg';
@@ -37,6 +38,12 @@ return (
     <Col lg='4' md='4' sm='6'>
         <div className='skillesItems'>
         <img src={Boostrap} alt='Boostrap'/>
+        </div>
+    </Col>
+
+    <Col lg='4' md='4' sm='6'>
+        <div className='skillesItems'>
+        <img src={Material} alt='Material UI'/>
         </div>
     </Col>
 

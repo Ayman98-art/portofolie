@@ -112,6 +112,14 @@ return (
     />
 </Col>
 
+<Col lg="4" className='mtop-15'>
+    <GitHubProject 
+        linkGit={"https://github.com/Ayman98-art/Mulit-Steps.git"} 
+        projectGit={"Mulit Steps"} 
+        titleGit={"REACT JS"}
+    />
+</Col>
+
 </Row>
     </>
 )
