@@ -3,7 +3,7 @@ import './GitHubProject.css';
 
 
 // eslint-disable-next-line react/prop-types
-function GitHubProject({ linkGit,projectGit, titleGit}) {
+function GitHubProject({ linkGit, projectName, titleTool}) {
 return (
 <>
     <div className="GitHubProject">
@@ -15,13 +15,13 @@ return (
                 href={linkGit}
                 target='blank'
                 >
-                <h2>{projectGit}</h2>
+                <h2>{projectName}</h2>
             </Nav.Link>
             <span className='PublicSuodo'>Public</span>
         </div>
 
         <div className='GitHubProject__title'>
-            👽 <span>{titleGit}</span>      
+            👽 <span>{titleTool}</span>      
         </div>
 
     </div>
